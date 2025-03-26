@@ -14,6 +14,7 @@ function check_key () {
 }
 input.onButtonPressed(Button.AB, function () {
     servos.P0.setAngle(0)
+    control.reset()
 })
 input.onButtonPressed(Button.B, function () {
     temp = "" + user_key + "B"
