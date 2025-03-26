@@ -23,6 +23,6 @@ let temp = ""
 let user_key = ""
 let key = ""
 let secret = 3791
-key = "BBABA"
+key = "BBAAB"
 user_key = ""
 servos.P0.setAngle(0)
